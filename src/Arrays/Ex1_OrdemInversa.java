@@ -1,4 +1,10 @@
 package Arrays;
+
+/*
+Crie um vetor de 6 números inteiros
+e mostre-os na ordem inversa.
+*/
+
 public class Ex1_OrdemInversa {
     public static void main(String[] args) {
 
@@ -8,7 +14,7 @@ public class Ex1_OrdemInversa {
 
         System.out.print("Vetor: ");
         int count =0;
-        while(count < (vetor.length)) {
+        while(count < (vetor.length)) { // vetor.length conta posições (tamanho da array)
             System.out.print(vetor[count] + " ");
             count++;
         }

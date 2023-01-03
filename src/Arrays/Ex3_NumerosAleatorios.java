@@ -1,4 +1,5 @@
 package Arrays;
+
 import java.util.Random;
 
 /*
@@ -7,9 +8,9 @@ Ao final mostre os números e seus sucessores.
 */
 public class Ex3_NumerosAleatorios {
     public static void main(String[] args) {
-        Random random = new Random();
+        Random random = new Random(); // gera números aleatorios
 
-        int[] numerosAleatorios = new int[20];
+        int[] numerosAleatorios = new int[20]; //array para guardar os numeros
 
         for(int i = 0; i < numerosAleatorios.length; i++) {
             int numero = random.nextInt(100);
@@ -17,7 +18,7 @@ public class Ex3_NumerosAleatorios {
         }
 
         System.out.print("Numeros Aleatorios: ");
-        for (int numero : numerosAleatorios) {
+        for (int numero : numerosAleatorios) { //foreach (para cada) loop for
             System.out.print(numero + " ");
         }
 
